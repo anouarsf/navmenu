@@ -1,0 +1,46 @@
+.App {
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.menu-navbar{
+  display: flex;
+  justify-content: space-around;
+list-style-type:none;
+border-bottom: 1px solid rgb(7, 171, 247);
+
+}
+.menu-navbar-li:hover{
+  color: aqua; 
+}
+
+
+.dropdown{
+  list-style-type:none;
+  color: rgb(209, 146, 11);
+  margin-top: 10px;
+  border: 2px solid rgb(7, 171, 247);
+  margin: 1px 0px ;  
+ padding: 10px;
+position: absolute;
+/* display: inline-block; */
+}
+
+.dropdown li {
+  line-height: 28px;
+  display: block;
+
+}
+
+.dropdown-item li {
+  position: absolute;
+
+}
+
+
+
+.dropdown:hover .dropdown-item  {
+  display: block;
+}
+
